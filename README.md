@@ -20,8 +20,9 @@
 
 ## 阅读工具
 - Intellij IDEA
-  - Structure feature
-  - Diagrams -> Show Diagrams
+  - Structure feature：用于查看类的方法签名
+  - Diagrams -> Show Diagrams 用于查看类的继承结构
+- [J2SE 8 API docs](https://docs.oracle.com/javase/8/docs/api/)
  
 ## 阅读计划
 - java.lang
@@ -51,6 +52,10 @@
   - Void
   
 - java.util
+  - [x] Iterable
+  - [x] List
+  - [x] Collection
+  - [x] AbstractCollection
   - AbstractList
   - AbstractMap
   - AbstractSet
@@ -81,6 +86,9 @@
   - UUID
   - WeakHashMap
   
+- java.util.function
+  - [x] Consumer
+  - [x] UnaryOperator
 - java.util.concurrent
   - ConcurrentHashMap
   - Executor
