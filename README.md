@@ -23,7 +23,7 @@
   - Structure feature：用于查看类的方法签名
   - Diagrams -> Show Diagrams 用于查看类的继承结构
 - CopyTranslator：用于复制英文注释进行翻译，快速查词
-- [J2SE 8 API docs](https://docs.oracle.com/javase/8/docs/api/)
+- Configure [J2SE 8 API docs](https://docs.oracle.com/javase/8/docs/api/) in Intellij IDEA Documentation Path
 
 ## 阅读方法
 - 从具体的实现类找到最顶层父类/父接口，然后自顶向下查看实现。
@@ -65,6 +65,8 @@
   - [x] AbstractCollection
   - [x] ListIterator
   - [x] RandomAccess
+  - [x] Serializable
+  - [x] Cloneable
   - [x] AbstractList
   - AbstractMap
   - AbstractSet
@@ -72,6 +74,7 @@
   - LinkedList
   - HashMap
   - HashTable
+  - BitSet
   - HashSet
   - LinkedHashMap
   - LinkerHashSet
@@ -98,6 +101,7 @@
 - java.util.function
   - [x] Consumer
   - [x] UnaryOperator
+  
 - java.util.concurrent
   - ConcurrentHashMap
   - Executor
