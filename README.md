@@ -40,7 +40,7 @@
   - StringBuffer
   - StringBuilder
   - [x] Boolean
-  - Byte
+  - [x] Byte
   - Double
   - Float
   - [x] Integer
