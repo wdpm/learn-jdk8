@@ -33,7 +33,8 @@
  
 ## 阅读计划
 - java.lang
-  - Object
+  - [x] Object
+  - [x] CharSequence
   - String
   - AbstractStringBuilder
   - StringBuffer
@@ -70,7 +71,7 @@
   - [x] AbstractList
   - AbstractMap
   - AbstractSet
-  - ArrayList
+  - [x] ArrayList
   - LinkedList
   - HashMap
   - HashTable
