@@ -166,6 +166,13 @@ multmin: -214748364
  result: NumberFormatException (after multiplication, before subtraction)  
 ```
 当 -214748364*10=-2147483640 时，满足条件 result < limit + digit = -2147483647 + 8，抛出异常
+#### 一个例子
+```java
+parseInt("Kona", 27) returns 411787
+```
+在16进制数中a=10，b=11，c=12，d=13，e=14，f=15，...，k=20，n=23，o=24
+
+于是 20*27^3+24*27^2+23*27^1+97=411874
 
 ### int parseInt(String s)
 => parseInt(s,10) 默认10进制解析
@@ -634,7 +641,7 @@ i |= (i >>  2); // i = 11000000 | 11110000 = 11110000
 i |= (i >>  4); // i = 11110000 | 11111111 = 11111111
 return i - (i >>> 1); // 11111111 - 01111111 = 10000000
 ```
-事实上，int是32位，原理是类似的。
+事实上，int是32位，原理类似。
 
 #### int lowestOneBit(int i)
 ```java
@@ -680,6 +687,24 @@ public static int bitCount(int i) {
     return i & 0x3f;
 }
 ```
+~~一脸懵逼~~
+作用：返回指定int值的二进制补码表示形式中的1的个数。
+> - [Counting bits set, in parallel](http://graphics.stanford.edu/~seander/bithacks.html)
+> - Integer#bitCount.md
 
-返回指定int值的二进制补码表示形式中的1的个数。
-## 说明
+#### int signum(int i)
+```java
+public static int signum(int i) {
+    // HD, Section 2-7
+    return (i >> 31) | (-i >>> 31);
+}
+```
+#### 其他方法
+```java
+int numberOfLeadingZeros(int i)
+int numberOfTrailingZeros(int i)
+int rotateLeft(int i, int distance)
+int rotateRight(int i, int distance)
+int reverse(int i)
+int reverseBytes(int i)
+```
