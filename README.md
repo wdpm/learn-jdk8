@@ -39,11 +39,11 @@
   - AbstractStringBuilder
   - StringBuffer
   - StringBuilder
-  - Boolean
+  - [x] Boolean
   - Byte
   - Double
   - Float
-  - Integer
+  - [x] Integer
   - Long
   - Short
   - Thread
