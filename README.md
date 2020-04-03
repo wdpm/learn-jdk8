@@ -32,37 +32,33 @@
 - 最后看方法里面的零碎注释，跳过实在难以理解的地方，例如Hacker delight。
  
 ## 阅读计划
-
-<details>
-  <summary>java.lang</summary>
-  - java.lang
-    - [x] Object
-    - [x] CharSequence
-    - String
-    - AbstractStringBuilder
-    - StringBuffer
-    - StringBuilder
-    - [x] Boolean
-    - [x] Byte
-    - [x] Short
-    - [x] Integer
-    - [x] Long
-    - Float
-    - Double
-    - Thread
-    - ThreadLocal
-    - Enum
-    - Throwable
-    - Error
-    - Exception
-    - Class
-    - ClassLoader
-    - Compiler
-    - System
-    - Package
-    - Void
-</details>
-
+- java.lang
+  - [x] Object
+  - [x] CharSequence
+  - String
+  - AbstractStringBuilder
+  - StringBuffer
+  - StringBuilder
+  - [x] Boolean
+  - [x] Byte
+  - [x] Short
+  - [x] Integer
+  - [x] Long
+  - Float
+  - Double
+  - Thread
+  - ThreadLocal
+  - Enum
+  - Throwable
+  - Error
+  - Exception
+  - Class
+  - ClassLoader
+  - Compiler
+  - System
+  - Package
+  - Void
+    
 - java.util
   - [x] Iterable
   - [x] List
