@@ -298,13 +298,16 @@ public static int compare(int x, int y) {
     return (x < y) ? -1 : ((x == y) ? 0 : 1);//-1,0,1是一种约定
 }
 ```
+int x, int y 认为都是有符号的。
+
 #### int compareUnsigned(int x, int y)
 ```java
 public static int compareUnsigned(int x, int y) {
     return compare(x + MIN_VALUE, y + MIN_VALUE);
 }
 ```
-比较无符号整数时，先同时加上一个相同的数MIN_VALUE，这样实际比较的数值就会比较小，压榨性能。
+int x, int y 认为都是无符号的。比较无符号整数时，先同时加上一个相同的数MIN_VALUE。
+> 为什么两边无条件添加MIN_VALUE就能正确地无符号比较？具体讨论参见 Integer#compareUnsigned.md
 
 ### int hashCode(int value)
 ```java

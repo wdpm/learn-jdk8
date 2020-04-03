@@ -41,11 +41,11 @@
   - StringBuilder
   - [x] Boolean
   - [x] Byte
-  - Double
-  - Float
+  - [x] Short
   - [x] Integer
   - Long
-  - Short
+  - Float
+  - Double
   - Thread
   - ThreadLocal
   - Enum
