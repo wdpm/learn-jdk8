@@ -20,7 +20,7 @@
 
 ## 阅读工具
 - Intellij IDEA
-  - Structure feature：用于查看类的方法签名
+  - Structure View：用于查看类的方法签名
   - Diagrams -> Show Diagrams 用于查看类的继承结构
 - CopyTranslator：用于复制英文注释进行翻译，快速查词
 - Configure [J2SE 8 API docs](https://docs.oracle.com/javase/8/docs/api/) in Intellij IDEA Documentation Path
@@ -29,36 +29,40 @@
 - 从具体的实现类找到最顶层父类/父接口，然后自顶向下查看实现。
 - 首先看类注释说明，这个描述具有高度的概括性，利于大体上理解。
 - 其次看某些方法的注释，一般是这个方法的概括说明。
-- 最后看方法里面的零碎注释，太难的地方可以先跳过。
+- 最后看方法里面的零碎注释，跳过实在难以理解的地方，例如Hacker delight。
  
 ## 阅读计划
-- java.lang
-  - [x] Object
-  - [x] CharSequence
-  - String
-  - AbstractStringBuilder
-  - StringBuffer
-  - StringBuilder
-  - [x] Boolean
-  - [x] Byte
-  - [x] Short
-  - [x] Integer
-  - Long
-  - Float
-  - Double
-  - Thread
-  - ThreadLocal
-  - Enum
-  - Throwable
-  - Error
-  - Exception
-  - Class
-  - ClassLoader
-  - Compiler
-  - System
-  - Package
-  - Void
-  
+
+<details>
+  <summary>java.lang</summary>
+  - java.lang
+    - [x] Object
+    - [x] CharSequence
+    - String
+    - AbstractStringBuilder
+    - StringBuffer
+    - StringBuilder
+    - [x] Boolean
+    - [x] Byte
+    - [x] Short
+    - [x] Integer
+    - [x] Long
+    - Float
+    - Double
+    - Thread
+    - ThreadLocal
+    - Enum
+    - Throwable
+    - Error
+    - Exception
+    - Class
+    - ClassLoader
+    - Compiler
+    - System
+    - Package
+    - Void
+</details>
+
 - java.util
   - [x] Iterable
   - [x] List
