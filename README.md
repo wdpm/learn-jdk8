@@ -45,7 +45,7 @@
   - [x] Integer
   - [x] Long
   - Float
-  - Double
+  - [x] Double
   - Thread
   - ThreadLocal
   - Enum
