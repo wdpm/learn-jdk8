@@ -33,19 +33,19 @@
  
 ## 阅读计划
 - java.lang
-  - [x] Object
+  - [x] Object *
+  - [x] Boolean
+  - [x] Byte
+  - [x] Short
+  - [x] Integer *
+  - [x] Long
+  - [x] Float *
+  - [x] Double *
   - [x] CharSequence
   - String
   - AbstractStringBuilder
   - StringBuffer
   - StringBuilder
-  - [x] Boolean
-  - [x] Byte
-  - [x] Short
-  - [x] Integer
-  - [x] Long
-  - Float
-  - [x] Double
   - Thread
   - ThreadLocal
   - Enum
