@@ -195,3 +195,22 @@ public static int toCodePoint(char high, char low) {
 }
 ```
 将指定的代理对转换为其补充代码点值。
+
+### int codePointAtImpl(char[] a, int index, int limit)
+```java
+// throws ArrayIndexOutOfBoundsException if index out of bounds
+static int codePointAtImpl(char[] a, int index, int limit) {
+    char c1 = a[index];
+    if (isHighSurrogate(c1) && ++index < limit) {
+        char c2 = a[index];
+        if (isLowSurrogate(c2)) {
+            return toCodePoint(c1, c2);
+        }
+    }
+    return c1;
+}
+```
+根据index取对应位置的char，得到c1，判断：
+- 如果isHighSurrogate为true，并且index+1小于 limit。那么获取a[index+1]并判断是否为LowSurrogate，是的话返回toCodePoint(c1, c2)
+- 否则，直接返回c1
+
