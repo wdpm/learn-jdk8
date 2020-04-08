@@ -42,7 +42,9 @@
   - [x] Float *
   - [x] Double *
   - [x] CharSequence
-  - String
+  - [x] Character
+  - [x] String
+  - [x] Appendable
   - AbstractStringBuilder
   - StringBuffer
   - StringBuilder
@@ -69,23 +71,23 @@
   - [x] Serializable
   - [x] Cloneable
   - [x] AbstractList
-  - AbstractMap
-  - AbstractSet
   - [x] ArrayList
   - LinkedList
-  - HashMap
-  - HashTable
+  - AbstractSet
   - BitSet
   - HashSet
-  - LinkedHashMap
-  - LinkerHashSet
-  - TreeMap
   - TreeSet
+  - SortedSet
+  - LinkerHashSet
+  - AbstractMap
+  - HashMap
+  - TreeMap
+  - HashTable
+  - LinkedHashMap
+  - SortedMap
   - Vector
   - Queue
   - Stack
-  - SortedMap
-  - SortedSet
   - Collections
   - Arrays
   - Comparator
