@@ -30,6 +30,12 @@
 - 首先看类注释说明，这个描述具有高度的概括性，利于大体上理解。
 - 其次看某些方法的注释，一般是这个方法的概括说明。
 - 最后看方法里面的零碎注释，跳过实在难以理解的地方，例如Hacker delight。
+
+## 阅读目的
+- 学习JDK的编码风格
+- 学习JDK的注释规范
+- 学习JDK的类/接口继承结构
+- 学习JDK的常见算法和实现
  
 ## 阅读计划
 - java.lang
@@ -43,9 +49,9 @@
   - [x] Double *
   - [x] CharSequence
   - [x] Character
-  - [x] String
+  - [x] String *
   - [x] Appendable
-  - AbstractStringBuilder
+  - [x] AbstractStringBuilder *
   - StringBuffer
   - StringBuilder
   - Thread
